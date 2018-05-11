@@ -5,7 +5,7 @@ class Application
     resp.write self.greeting
     resp.finish
   end
-  
+
   def greeting
     Time.now.hour < 12 ? "Good Morning!" : " GoodAfternoon!"
   end
